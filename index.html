@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GPA Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cesar's GPA Calculator</h1>
+        <table id="gpa-table">
+            <thead>
+                <tr>
+                    <th>Include</th>
+                    <th>Course</th>
+                    <th>Grade</th>
+                    <th>Credits</th>
+                    <th>Delete</th>
+                </tr>
+            </thead>
+            <tbody id="course-rows">
+            </tbody>
+        </table>
+        <button class="btn" id="add-row">+ Add row</button>
+        <br>
+        <button class="btn" id="calculate">= Calculate</button>
+        <button class="btn" id="reset">✕ Reset</button>
+        <div class="result">
+            <h2>GPA: <span id="gpa-result">0.00</span></h2>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
